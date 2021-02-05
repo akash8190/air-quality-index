@@ -2,15 +2,12 @@
 Webapp to predict the Air Quality Index of a region given climate conditions.
 
 
-**Motivation for this project**:\
-**Krish Naik's Air Quality Index Prediction Project**: https://www.youtube.com/watch?v=CTu0qnuMxgA. \
-**Code**: https://github.com/krishnaik06/AQI-Project
+
+![title]("https://www.visualcapitalist.com/wp-content/uploads/2020/09/how-air-quality-works-prev.png")
 
 
-Environment setup:
 
-requirements.txt: needed only for deployment to Heroku (not needed for local) as there were issues with anaconda installation on it.\
-requirements-conda.txt: needed for local development as I used conda locally. Run: conda create --name <env_name> --file requirements-conda.txt
+
 
 For this project, I have followed the whole lifecycle of a Data Science Project.
 
@@ -27,8 +24,8 @@ The CSV file created in step 2 was cleaned to remove null values and improper da
 4. **Feature Engineering and Model Creation**: (execute individual jupyter notebooks)\
 Tried various algorithms, like Linear Regression, Lasso and Ridge Regression, Decision Tree Regressor, KNN Regressor, Random Forest Regressor, XGBoost Regressor.\
 Random Forest and XGBoost gave best performance. Finally, used XGBoost to perform predictions.
-5. **Model Deployment**: (execute flask-app in project root, npm build in aqi-frontend folder and hit http://localhost:5000/aqi-frontend) \
-Used React.js frontend to make API calls to Flask REST API backend.\
+5. **Model Deployment**:
+
 Finally deployed on Heroku platform.
 
 You can enter various climate details or select one of the popular cities. Finally, click submit button and get your results for Air Quality Index.
