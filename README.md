@@ -3,7 +3,7 @@ Webapp to predict the Air Quality Index of a region given climate conditions.
 
 
 
-![title]("https://www.visualcapitalist.com/wp-content/uploads/2020/09/how-air-quality-works-prev.png")
+![title](https://www.visualcapitalist.com/wp-content/uploads/2020/09/how-air-quality-works-prev.png)
 
 
 
